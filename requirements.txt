@@ -1,0 +1,37 @@
+# -----------------------------
+# Core
+# -----------------------------
+numpy
+pandas
+python-dotenv
+
+# -----------------------------
+# Document ingestion
+# -----------------------------
+beautifulsoup4
+pypdf
+
+# -----------------------------
+# Embeddings and retrieval
+# -----------------------------
+sentence-transformers
+faiss-cpu
+rank-bm25
+
+# -----------------------------
+# RAG orchestration
+# -----------------------------
+langchain
+langchain-core
+langchain-community
+
+# -----------------------------
+# LLM providers
+# -----------------------------
+langchain-openai
+langchain-anthropic
+
+# -----------------------------
+# Testing
+# -----------------------------
+pytest
