@@ -1,0 +1,30 @@
+{
+  "trace_id": "trace-001",
+  "query": "How do I fix AWS Glue throttling?",
+  "retrieval": {
+    "top_k": 3,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "score": 0.864,
+        "text": "AWS Glue throttling occurs when API request limits are exceeded."
+      },
+      {
+        "rank": 2,
+        "score": 0.642,
+        "text": "Reduce concurrent AWS Glue API requests and use exponential backoff."
+      }
+    ]
+  },
+  "generation": {
+    "answer": "Reduce concurrent API requests and use exponential backoff.",
+    "input_tokens": 420,
+    "output_tokens": 32
+  },
+  "latency_ms": {
+    "retrieval": 85,
+    "generation": 740,
+    "total": 825
+  },
+  "estimated_cost_usd": 0.0021
+}
